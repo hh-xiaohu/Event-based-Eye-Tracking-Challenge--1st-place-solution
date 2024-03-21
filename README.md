@@ -1,4 +1,4 @@
-# Event-based Eye Tracking Challenge--1st place solution
+# Event-based Eye Tracking Challenge--solution
 This is the code for the first place on the private leaderboard of the Event-based Eye Tracking AI for Streaming CVPR 2024 Challenge. [**[Leaderboard]**](https://www.kaggle.com/competitions/event-based-eye-tracking-ais2024/leaderboard) [**[Official Page]**](https://eetchallenge.github.io/EET.github.io/)
 
 ## Requirements
