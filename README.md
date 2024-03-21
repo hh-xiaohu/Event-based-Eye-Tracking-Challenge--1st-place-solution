@@ -33,12 +33,11 @@ python visualize.py
 ```
 This will create a folder prefixed with "vis_event", containing visualization results for the test set. Green dots represent predicted values, and circles represent a range of 10 pixels.
 
-<center class="quarter">
-<img src="figures/l_1_1.gif" width=50/>
-<img src="figures/l_7_5.gif" width=50/>
-<img src="figures/l_10_2.gif" width=50/>
-<img src="figures/l_12_4.gif" width=50/>
-</center>
+| ![Image 1](figures/l_1_1.gif)  | ![Image 2](figures/l_7_5.gif)  |
+| ------------------------------ | ------------------------------ |
+| ![Image 3](figures/l_10_2.gif) | ![Image 4](figures/l_12_4.gif) |
+
+
 
 ## Performance
 | Method                                                                                    | GPU            | Averaged Distance  | P10 Accuracy on private leaderboard      |  Inference Latency (bs=1)    | 
