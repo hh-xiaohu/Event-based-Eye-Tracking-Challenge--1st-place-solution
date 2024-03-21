@@ -34,10 +34,10 @@ python visualize.py
 This will create a folder prefixed with "vis_event", containing visualization results for the test set. Green dots represent predicted values, and circles represent a range of 10 pixels.
 
 <center class="quarter">
-<img src="figures/l_1_1.gif" width=200/>
-<img src="figures/l_7_5.gif" width=200/>
-<img src="figures/l_10_2.gif" width=200/>
-<img src="figures/l_12_4.gif" width=200/>
+<img src="figures/l_1_1.gif" width=50/>
+<img src="figures/l_7_5.gif" width=50/>
+<img src="figures/l_10_2.gif" width=50/>
+<img src="figures/l_12_4.gif" width=50/>
 </center>
 
 ## Performance
