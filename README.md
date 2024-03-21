@@ -49,4 +49,3 @@ run this:
 ```python
 ./train.sh
 ```
-The meanings of the parameters are to be added.
