@@ -1,0 +1,11 @@
+data==0.4
+determined==0.29.0
+h5py==3.10.0
+imageio==2.34.0
+matplotlib==3.5.1
+numpy==1.22.4
+opencv_python==4.8.0.74
+pandas==1.4.2
+PyYAML==6.0
+tonic==1.4.3
+tqdm==4.64.0
