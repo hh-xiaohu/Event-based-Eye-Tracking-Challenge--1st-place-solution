@@ -49,4 +49,4 @@ run this:
 ```python
 ./train.sh
 ```
-The specific meanings of the parameters are to be supplemented.
+The meanings of the parameters are to be added.
