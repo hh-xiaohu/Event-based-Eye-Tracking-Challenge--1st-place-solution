@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 ## Test
-We provide two pre-trained [**models**](https://drive.google.com/drive/folders/18LC4IyezDinmEY8MwDWRepbQ2y-qzitj?usp=drive_link) , differing only in the training data. One is trained on the training set. The other is trained on both the training and validation sets together. The two models have the same p_10 accuracy, but there may be differences in p_error.
+We provide two pre-trained [**models**](https://drive.google.com/drive/folders/18LC4IyezDinmEY8MwDWRepbQ2y-qzitj?usp=drive_link) , differing only in the training data. One is trained on the training set. The other is trained on both the training and validation sets together. Both models share identical p_10 accuracy, yet the one trained on the entire dataset exhibits a lower p_error, decreasing from 1.79 to 1.67.
 
 
 Set the paths of 'checkpoint' in test.sh, then run this:
@@ -42,7 +42,7 @@ This will create a folder prefixed with "vis_event", containing visualization re
 ## Performance
 | Method                                                                                    | GPU            | Averaged Distance  | P10 Accuracy on private leaderboard      |  Inference Latency (bs=1)    | 
 |-------------------------------------------------------------------------------------------|----------------|----------|------------------|----------|
-|CNN_GRU_Mamba | RTX 1080ti 11 Gb | \    | 0.9958  |  1.956ms  |
+|CNN_GRU_Mamba | RTX 1080ti 11 Gb |  1.67   | 0.9958  |  1.956ms  |
 
 ## train
 run this:
