@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 test_length=45
-test_stride=45
+test_stride=10
 spatial_factor=0.125
 map_type=binary
 # checkpoint=/media/hanh/mix/eye_track/eye_baseline/trainset_only/model_last_epoch1000.pth
